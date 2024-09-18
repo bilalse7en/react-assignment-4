@@ -1,0 +1,33 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+/* IMPORTANT: In "styled" mode you must add the PrimeReact Theme here. Do NOT include in "unstyled" mode */
+@import 'primereact/resources/themes/lara-light-blue/theme.css' layer(primereact);
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+.p-card-content {
+  padding: 0;
+}
+
+.products-card .p-card-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 332px;
+  max-height: 100%;
+}
+
+.p-card .p-card-title{
+  font-size: 1rem
+}
+
+.p-image-toolbar {
+  filter: drop-shadow(1px 1px 2px lightgray);
+}
