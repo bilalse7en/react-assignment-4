@@ -1,4 +1,4 @@
-import React, {useContext} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../context/themeContext';
 import { FaSun, FaMoon, FaShoppingCart } from 'react-icons/fa'; // Import the cart icon
